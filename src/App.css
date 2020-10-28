@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+
+.app {
+ background-color: rgb(233, 233, 233);
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.Header{
+  width: 100%;
+  background-image: url("hp2.jpg");
+  background-color: rebeccapurple;
+  height: 450px;
+  margin-bottom: 20px;
+  background-size: cover;   
+  background-position: top center ;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputText{
+width: 300px;
+height:50px;
+margin-bottom: 20px;
+font-size: 26px;
+	font-style: italic;
+  color: #444;
+  border: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputText::placeholder{
+  padding-left: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.story{
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  justify-content: left;
+  background-color: rgb(217, 224, 255);
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
+  
+}
+
+.story:hover{
+  background-color: rgb(235, 238, 253); 
+}
+
+.story img{
+  width: 30px;
+  height:30px;
+  padding-left:30px;
+  padding-top:25px;
+}
+
+.story h5 {
+  padding-left: 20px;
+  padding-top:0.9em;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: 'Archivo', sans-serif;
+
+}
+
+.story h3 {
+  padding-left: 0.2em;
+  font-family: 'Archivo', sans-serif;
+  padding-top: 1px;
+  font-size: 1.5em;
+ 
+}
+
+.story a:hover{
+  color:rgb(61, 99, 204);
+}
+
+a{
+  color: rgb(58, 58, 58);
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+
+
+.Header h1{
+  font-size: 8em;
+  margin-top:0px; margin-bottom:0px;
+  padding-top: 140px;
   color: white;
+  font-family: 'Archivo', sans-serif;
+  padding-left: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.Header h2{
+  margin-top:0px;
+  color: white;
+  padding-left: 180px;
+  font-family: 'Archivo', sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
